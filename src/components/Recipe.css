@@ -1,0 +1,140 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Space+Grotesk&display=swap');
+.header{
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    /* background: linear-gradient(to right bottom,rgba(10,10,10,0.856),rgba(251, 244, 241, 0.788)),url(../images/wonderland.jpg); */
+    background : url(../images/jujpg.jpg);
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* font-family: 'Space Grotesk', sans-serif;
+     */
+     font-family: 'Space Grotesk', sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+/* .logo{
+    width: 100px;
+
+}
+.img-1{
+    width: 100%;
+    height: 50%;
+} */
+.ul{
+    list-style: none;
+    display: flex;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 1.5rem;
+    text-transform: uppercase;
+    
+}
+.form_1{
+    width:50%;
+    display: flex;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-right: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    padding: 0 1.5rem;
+    background-color: transparent;
+    color: whitesmoke;
+    text-transform: uppercase;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 1s;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.text p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(59, 59, 218);
+    margin-bottom: 1rem;
+}
+
+.text h1{
+    font-size:60px;
+    font-weight: bolder;
+    /* text-shadow: 0px 0px 10px; */
+    color:grey
+}
+.span-h1{
+    color:rgb(94, 9, 100)
+}
+
+
+.print{
+    margin: 5rem;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 2rem;
+    color: azure;
+}
+.product{
+    background-color: rgba(255,255,255,0.295);
+}
+img{
+    width:150px;
+    box-shadow: 3px 3px 50px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn2{
+    margin:15px;
+    background-color: transparent;
+    padding:5px 20px;
+    color: whitesmoke;
+    border:1px solid white;
+    text-transform: uppercase;
+}
+.btn2:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 1s ease-in-out;
+}
+p{
+    color: rgb(3, 3, 112);
+    text-shadow: 0px 0px 5px;
+    font-size: 20px;
+}
+span{
+    color: white;
+}
+.a-2{
+    color: white;
+    text-decoration: none;
+
+}
